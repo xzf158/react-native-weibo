@@ -6,8 +6,7 @@ import {
     NativeModules,
     NativeAppEventEmitter
 } from 'react-native';
-// import promisify from 'es6-promisify';
-var promisify = require("bluebird");
+import promisify from 'es6-promisify';
 
 const {
     WeiboAPI
